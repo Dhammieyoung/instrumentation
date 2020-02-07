@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="paystack-card-form">
+        <input type="text" data-paystack="number">
+        <input type="text" data-paystack="cvv">            
+        <input type="text" data-paystack="expiryMonth">
+        <input type="text"  data-paystack="expiryYear">
+        <button type="submit" data-paystack="submit">Submit</button>
+      </form>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://js.paystack.co/v1/paystack.js"></script>
+    <script src="js/payment.js"></script>
+</body>
+</html>

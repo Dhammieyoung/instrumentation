@@ -1,0 +1,85 @@
+.mee{
+    margin-top: 15%;
+   
+}
+h1,p,h5{
+	
+	text-align: center;
+}
+h1{
+	color: red;
+	margin-top: 3%;
+	font-size: 30px;
+}
+h5{
+	color: blue;
+	font-size: 15px;
+}
+/*------------------
+	Responsive
+---------------------*/
+
+/* responsive design */
+@media (max-width: 992px) {
+	.grid-column-2 {
+	  grid-template-columns: 1fr 1fr;
+	  grid-row-gap: 40px;
+	}
+  
+	.input,
+	.signinbutton {
+	  width: 100%;
+	}
+  }
+  
+  @media (max-width: 736px) {
+	a.brand-logo {
+	  font-size: 35px;
+	}
+  
+	.overlay {
+	  padding: 2.5rem 0;
+	}
+  
+	.form-head {
+	  font-size: 30px;
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.grid-column-2 {
+	  grid-template-columns: 1fr;
+	  grid-row-gap: 30px;
+	}
+  
+	.column1 {
+	  align-self: center;
+	  order: 2;
+	}
+  
+	.column2 {
+	  order: 1;
+	}
+  
+	.form34 {
+	  padding: 1rem;
+	}
+  
+	.overlay {
+	  padding: 2rem 0;
+	}
+  
+	a.brand-logo {
+	  font-size: 30px;
+	}
+  
+	.top-bottom-gap {
+	  padding: 0 0 1rem 0;
+	}
+  
+	.form-head {
+	  font-size: 28px;
+	}
+  }
+  /* responsive design */
+  
